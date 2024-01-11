@@ -12,7 +12,7 @@
 ## Tecnologias usadas 
   - HTML 
   - CSS
-  - JS
+  - JavaScript
 
 ## [Como foi desenvolvido] (https://drive.google.com/file/d/1rPGFRoUQRYa3rX0gRHPvGOhlop3EjxZt/view?usp=drive_link)
   
