@@ -83,3 +83,12 @@ header {
 .locked-unlocked-icons {
 	width: 15px;
 }
+
+.mensagem {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: red;
+	font-size: 12px;
+	text-align: center;
+}
