@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	width: fit-content;
+	display: grid;
+	grid-template-columns: 295px 295px;
+	justify-content: space-between;
+	margin: auto;
+	font-family: Verdana;
+	background: #cdcdcd;
+}
+
+header {
+	text-align: center;
+	margin-bottom: 10px;
+	padding: 10px 0;
+	text-transform: uppercase;
+	font-family:Arial, Helvetica, sans-serif;
+	background: #123456;
+	color: rgba(32, 226, 32, 0.918);
+}
+
+.main-left-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 3px 3px;
+	background-color:#123456;
+}
+.input-set-pin {
+	padding: 5px 10px;
+	border: none;
+	background: #ffffff;
+}
+.input-set-pin::placeholder {
+	font-family: Verdana;
+	color: green;
+}
+.submit-pin-button {
+	padding: 8px 10px;
+	border: none;
+	background: rgb(32, 226, 32);
+	color: #ffffff;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 10px;
+	cursor: pointer;
+	height: 25px;
+}
+
+.input-set-pin, .submit-pin-button {
+	border-radius: 4px;
+}
+.main-result-field {
+	opacity: 0.7;
+	font-size: 20px;
+	padding: 10px 0;
+	text-align: center;
+	margin-top: 5px;
+
+	color: #ffffff;
+}
+
+.main-right-content {
+	display: grid;
+	grid-template-rows: 30px 1fr;
+	background: #2acb1b5b;
+}
+.error-message-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #123456ad;
+	color: #0dde14d6;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+.locked-unlocked-icons {
+	width: 15px;
+}
