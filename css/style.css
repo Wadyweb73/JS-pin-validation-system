@@ -68,7 +68,7 @@ header {
 .main-right-content {
 	display: grid;
 	grid-template-rows: 30px 1fr;
-	background: #2acb1b5b;
+	background: #afbdad5b;
 }
 .error-message-title {
 	display: flex;
